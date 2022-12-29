@@ -2,7 +2,7 @@
   "all_rates_query": {
       "USER": "user",
       "PASSWORD": "password",
-      "HOST": "local1host",
+      "HOST": "localhost",
       "BASE": "airflow",
       "PORT": 15432,
       "header": [

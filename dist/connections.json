@@ -1,0 +1,33 @@
+{
+  "all_rates_query": {
+      "USER": "user",
+      "PASSWORD": "password",
+      "HOST": "localhost",
+      "BASE": "airflow",
+      "PORT": 15432,
+      "header": [
+        "BASE",
+        "CURRENCY",
+        "Курсы",
+        "Дата"
+      ],
+      "sheet": "Rates",
+      "sql_file_path": "\\select_all.sql"
+  },
+    "usd_rub": {
+      "USER": "user",
+      "PASSWORD": "password",
+      "HOST": "localhost",
+      "BASE": "airflow",
+      "PORT": 15432,
+      "header": [
+        "BASE",
+        "CURRENCY",
+        "Курсы",
+        "Дата"
+      ],
+      "sheet": "usd",
+      "sql_file_path": "\\usd_rub.sql"
+  }
+}
+
